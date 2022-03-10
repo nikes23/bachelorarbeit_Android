@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize theme here. -->
+        <item name="colorPrimary">@color/darkblue</item>
+        <item name="colorPrimaryDark">@color/darkblue</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="AlertDialog" parent="Base.Theme.AppCompat.Light.Dialog" />
+
+
+</resources>
